@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         byte clientOS = 0;
         int clientDeviceYear = 2015;
-
+        // Задача №1 , №2
         if (clientOS == 0 && clientDeviceYear > 2015 ) {
             System.out.printf("   Установите версию приложения для IOS по ссылке ниже");
         } else if (clientOS == 0 && clientDeviceYear <= 2015) {
@@ -15,13 +15,14 @@ public class Main {
         }else if (clientOS == 1 && clientDeviceYear <= 2015) {
             System.out.printf("   Установите облегченную версию приложения для Android по ссылке ниже");
         }
-
+        // Задача №3
         int year = 2021;
         if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
             System.out.printf(year + "   год является високосным");
         }else{
             System.out.printf(year + "   год не является високосным");
         }
+        // Задача №4
         int deliveryDistance = 95;
         byte dase = 1;
         if (deliveryDistance <20){
@@ -36,6 +37,7 @@ public class Main {
         }else if (deliveryDistance > 100){
             System.out.printf("   К сожалению мы не сможем доставить вам карту");
         }
+        // Задача №5
         int monthNumber = 12;
         switch (monthNumber) {
             case 1:
