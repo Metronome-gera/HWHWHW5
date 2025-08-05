@@ -13,14 +13,14 @@ public class Main {
         // Задача №2
         int clientDeviceYear = 2015;
         if (clientOS == 0 && clientDeviceYear > 2015 ) {
-            System.out.printf("   Установите версию приложения для IOS по ссылке ниже");
+            System.out.printf("   Установите версию приложения для IOS по ссылке");
         } else if (clientOS == 0 && clientDeviceYear <= 2015) {
-            System.out.printf("   Установите облегченную верcию приложения для IOS по ссылке ниже");
+            System.out.printf("   Установите облегченную верcию приложения для IOS по ссылке");
         }
         if (clientOS == 1 && clientDeviceYear > 2015) {
-            System.out.printf("   Установите версию приложения для Android по ссылке ниже");
+            System.out.printf("   Установите версию приложения для Android по ссылке");
         }else if (clientOS == 1 && clientDeviceYear <= 2015) {
-            System.out.printf("   Установите облегченную версию приложения для Android по ссылке ниже");
+            System.out.printf("   Установите облегченную версию приложения для Android по ссылке");
         }
         // Задача №3
         int year = 2021;
