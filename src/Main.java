@@ -2,9 +2,16 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+        // Задача №1
         byte clientOS = 0;
+        if (clientOS == 0 ) {
+            System.out.printf("   Установите версию приложения для IOS по ссылке");
+        }
+        if (clientOS == 1 ) {
+            System.out.printf("   Установите версию приложения для Android по ссылке");
+        }
+        // Задача №2
         int clientDeviceYear = 2015;
-        // Задача №1 , №2
         if (clientOS == 0 && clientDeviceYear > 2015 ) {
             System.out.printf("   Установите версию приложения для IOS по ссылке ниже");
         } else if (clientOS == 0 && clientDeviceYear <= 2015) {
